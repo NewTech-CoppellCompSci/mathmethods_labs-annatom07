@@ -76,6 +76,7 @@ public class Lab01 {
 		entnum = inKey.nextInt();
 		max = Math.max(max, entnum);
 		
+		
 		System.out.println(max);
 		System.out.println("Max =" + max);
 		min = Math.min(min, entnum);
@@ -84,10 +85,14 @@ public class Lab01 {
 		}
 	}
 	}
-	
-	
-	
-	
-	
-	
 }
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
