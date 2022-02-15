@@ -23,7 +23,7 @@ public class Lab02 {
 		entnum = inKey.nextInt();
 		System.out.println("Enter another postitive integer");
 		entnum2 = inKey.nextInt();
-		for (int i = 1; i < 10; i++){ //for statement 
+		for (int i = 1; i < 11; i++){ //for statement 
         double scope = entnum;
         double min = entnum2;
         	int num = (int) (Math.random() * scope + min);
@@ -40,13 +40,14 @@ public class Lab02 {
 		Scanner inKey = new Scanner(System.in);
 		double Radius;//First double
 		double Height;//Second double
-		double pie;// the double for pie
+		double PI;// the double for pie
+		PI  = 3.141592653589793;
 		System.out.println("Enter the radius");
 		Radius = inKey.nextInt();
 		System.out.println("Enter the height");
 		Height = inKey.nextInt();
 		
-	System.out.println("The radius is" + 3.14 * Radius * Radius * Height );	
+	System.out.println("The radius is" + PI * Radius * Radius * Height );	
 	}//The formula for 
 	
 	public static void problem03() {
